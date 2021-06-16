@@ -6,9 +6,17 @@
 //
 
 #include <iostream>
+#include "Animal.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(int argc, const char * argv[])
+{
+    
+    Animal * a = new Animal();
+    
+    a->setName("Animal");
+    a->getName();
+    a->makeNoise();
+    
+    
     return 0;
 }
