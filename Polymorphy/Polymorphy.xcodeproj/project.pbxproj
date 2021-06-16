@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2C3EB269267A55C5000A8D3B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C3EB268267A55C5000A8D3B /* main.cpp */; };
-		2C3EB275267A5852000A8D3B /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C3EB273267A5852000A8D3B /* Animal.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +25,6 @@
 /* Begin PBXFileReference section */
 		2C3EB265267A55C5000A8D3B /* Polymorphy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Polymorphy; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3EB268267A55C5000A8D3B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2C3EB273267A5852000A8D3B /* Animal.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Animal.cpp; path = Classes/Animal.cpp; sourceTree = "<group>"; };
-		2C3EB274267A5852000A8D3B /* Animal.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Animal.hpp; path = Classes/Animal.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				2C3EB268267A55C5000A8D3B /* main.cpp */,
-				2C3EB273267A5852000A8D3B /* Animal.cpp */,
-				2C3EB274267A5852000A8D3B /* Animal.hpp */,
 			);
 			path = Polymorphy;
 			sourceTree = "<group>";
@@ -124,7 +119,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C3EB269267A55C5000A8D3B /* main.cpp in Sources */,
-				2C3EB275267A5852000A8D3B /* Animal.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
