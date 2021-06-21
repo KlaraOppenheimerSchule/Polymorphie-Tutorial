@@ -6,6 +6,13 @@
 //
 
 #include <iostream>
+#include "Pet.hpp"
+#include "Cat.hpp"
+#include "Dog.hpp"
+#include "Rodent.hpp"
+#include "Hamster.hpp"
+#include "Rabbit.hpp"
+
 
 // declare
 void greeting();
@@ -19,7 +26,24 @@ int main(int argc, const char * argv[])
     
     // overriding
     
+    // Substitutionsprinzip
+    Pet * pPet = new Pet();
+    pPet->makeNoise();
     
+    pPet = new Cat();
+    pPet->makeNoise();
+
+    pPet = new Dog();
+    pPet->makeNoise();
+    
+    pPet = new Rodent(); // TODO: add func to show object relation
+    pPet->makeNoise();
+    
+    pPet = new Hamster();
+    pPet->makeNoise();
+    
+    pPet = new Rabbit();
+    pPet->makeNoise();
     
     return 0;
 }

@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2C3EB269267A55C5000A8D3B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C3EB268267A55C5000A8D3B /* main.cpp */; };
+		2C6AE84F268062F8002CA175 /* Pet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C6AE84D268062F8002CA175 /* Pet.cpp */; };
+		2C6AE8572680697A002CA175 /* Cat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C6AE8552680697A002CA175 /* Cat.cpp */; };
+		2C6AE85D26806C0B002CA175 /* Dog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C6AE85B26806C0B002CA175 /* Dog.cpp */; };
+		2C6AE86026806F5A002CA175 /* Rodent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C6AE85E26806F5A002CA175 /* Rodent.cpp */; };
+		2C6AE86326807051002CA175 /* Hamster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C6AE86126807051002CA175 /* Hamster.cpp */; };
+		2C6AE86626807148002CA175 /* Rabbit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C6AE86426807148002CA175 /* Rabbit.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		2C3EB265267A55C5000A8D3B /* Polymorphy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Polymorphy; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3EB268267A55C5000A8D3B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2C6AE84D268062F8002CA175 /* Pet.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Pet.cpp; path = Classes/Pet.cpp; sourceTree = "<group>"; };
+		2C6AE84E268062F8002CA175 /* Pet.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Pet.hpp; path = Classes/Pet.hpp; sourceTree = "<group>"; };
+		2C6AE8552680697A002CA175 /* Cat.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Cat.cpp; path = Classes/Cat.cpp; sourceTree = "<group>"; };
+		2C6AE8562680697A002CA175 /* Cat.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Cat.hpp; path = Classes/Cat.hpp; sourceTree = "<group>"; };
+		2C6AE85B26806C0B002CA175 /* Dog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Dog.cpp; path = Classes/Dog.cpp; sourceTree = "<group>"; };
+		2C6AE85C26806C0B002CA175 /* Dog.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Dog.hpp; path = Classes/Dog.hpp; sourceTree = "<group>"; };
+		2C6AE85E26806F5A002CA175 /* Rodent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Rodent.cpp; path = Classes/Rodent.cpp; sourceTree = "<group>"; };
+		2C6AE85F26806F5A002CA175 /* Rodent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Rodent.hpp; path = Classes/Rodent.hpp; sourceTree = "<group>"; };
+		2C6AE86126807051002CA175 /* Hamster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Hamster.cpp; path = Classes/Hamster.cpp; sourceTree = "<group>"; };
+		2C6AE86226807051002CA175 /* Hamster.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Hamster.hpp; path = Classes/Hamster.hpp; sourceTree = "<group>"; };
+		2C6AE86426807148002CA175 /* Rabbit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Rabbit.cpp; path = Classes/Rabbit.cpp; sourceTree = "<group>"; };
+		2C6AE86526807148002CA175 /* Rabbit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Rabbit.hpp; path = Classes/Rabbit.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				2C3EB268267A55C5000A8D3B /* main.cpp */,
+				2C6AE84D268062F8002CA175 /* Pet.cpp */,
+				2C6AE84E268062F8002CA175 /* Pet.hpp */,
+				2C6AE8552680697A002CA175 /* Cat.cpp */,
+				2C6AE8562680697A002CA175 /* Cat.hpp */,
+				2C6AE85B26806C0B002CA175 /* Dog.cpp */,
+				2C6AE85C26806C0B002CA175 /* Dog.hpp */,
+				2C6AE85E26806F5A002CA175 /* Rodent.cpp */,
+				2C6AE85F26806F5A002CA175 /* Rodent.hpp */,
+				2C6AE86126807051002CA175 /* Hamster.cpp */,
+				2C6AE86226807051002CA175 /* Hamster.hpp */,
+				2C6AE86426807148002CA175 /* Rabbit.cpp */,
+				2C6AE86526807148002CA175 /* Rabbit.hpp */,
 			);
 			path = Polymorphy;
 			sourceTree = "<group>";
@@ -118,7 +148,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6AE86626807148002CA175 /* Rabbit.cpp in Sources */,
+				2C6AE86026806F5A002CA175 /* Rodent.cpp in Sources */,
+				2C6AE8572680697A002CA175 /* Cat.cpp in Sources */,
+				2C6AE86326807051002CA175 /* Hamster.cpp in Sources */,
 				2C3EB269267A55C5000A8D3B /* main.cpp in Sources */,
+				2C6AE85D26806C0B002CA175 /* Dog.cpp in Sources */,
+				2C6AE84F268062F8002CA175 /* Pet.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
