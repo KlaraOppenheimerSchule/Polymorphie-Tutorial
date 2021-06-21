@@ -15,7 +15,7 @@
 class Hamster: public Rodent
 {
 public:
-    void makeNoise();
+    void makeNoise() override;
 };
 
 #endif /* Hamster_hpp */

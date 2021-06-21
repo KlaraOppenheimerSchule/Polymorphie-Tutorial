@@ -12,10 +12,10 @@
 #include <iostream>
 #include "Rodent.hpp"
 
-class Rabbit: public Pet
+class Rabbit: public Rodent
 {
 public:
-    void makeNoise();
+    void makeNoise() override;
 };
 
 #endif /* Rabbit_hpp */

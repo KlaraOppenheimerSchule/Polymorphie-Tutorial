@@ -15,7 +15,7 @@
 class Dog: public Pet
 {
 public:
-    void makeNoise();
+    void makeNoise() override;
 };
 
 #endif /* Dog_hpp */

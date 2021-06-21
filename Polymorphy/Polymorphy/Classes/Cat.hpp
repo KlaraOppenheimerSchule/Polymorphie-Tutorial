@@ -16,7 +16,7 @@
 class Cat :public Pet
 {
 public:
-    void makeNoise();
+    void makeNoise() override;
 };
 
 #endif /* Cat_hpp */
