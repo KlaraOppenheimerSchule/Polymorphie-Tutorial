@@ -11,3 +11,4 @@ void Rodent::makeNoise()
 {
     std::cout << "*RODENT NOISE*" << std::endl;
 }
+

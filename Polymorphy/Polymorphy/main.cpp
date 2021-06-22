@@ -14,9 +14,37 @@
 #include "Rabbit.hpp"
 
 
-// declare
+
+// Ueberschreiben Beispiel - Getraenkebeispiel aus der Folie
+class Getraenk
+{
+public:
+    virtual std::string schmeckt();
+};
+
+std::string Getraenk::schmeckt()
+{
+    return "schmeckt";
+}
+
+class Bier: public Getraenk
+{
+public:
+    std::string schmeckt() override;
+};
+
+std::string Bier::schmeckt()
+{
+    return "schmeckt mir am bester";
+};
+
+
+
+// declare func for overloading example
 void greeting();
 void greeting(std::string);
+void trenner();
+
 
 int main(int argc, const char * argv[])
 {
@@ -24,7 +52,17 @@ int main(int argc, const char * argv[])
     greeting();
     greeting("Guenter");
     
+    trenner();
+    
     // overriding
+    Getraenk * pGetraenk = new Getraenk;
+    std::cout << pGetraenk->schmeckt() << std::endl;
+    
+    Bier * pBier = new Bier;
+    std::cout << pBier->schmeckt() << std::endl;
+    std::cout << pBier->Getraenk::schmeckt() << std::endl;
+    
+    trenner();
     
     // Substitutionsprinzip
     Pet * pPet = new Pet();
@@ -36,7 +74,7 @@ int main(int argc, const char * argv[])
     pPet = new Dog();
     pPet->makeNoise();
     
-    pPet = new Rodent(); // TODO: add func to show object relation
+    pPet = new Rodent();
     pPet->makeNoise();
     
     pPet = new Hamster();
@@ -58,4 +96,9 @@ void greeting()
 void greeting(std::string _name)
 {
     std::cout << "Hey " + _name << std::endl;
+}
+
+void trenner()
+{
+    std::cout << "----------------" << std::endl;
 }

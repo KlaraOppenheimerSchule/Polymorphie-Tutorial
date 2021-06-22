@@ -11,3 +11,5 @@ void Hamster::makeNoise()
 {
     std::cout << "Hamster Noise" << std::endl;
 }
+
+

@@ -15,7 +15,8 @@
 class Rodent: public Pet
 {
 public:
-    void  makeNoise() override;
+    void makeNoise() override;
+
 };
 
 #endif /* Rodent_hpp */
