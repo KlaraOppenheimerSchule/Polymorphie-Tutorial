@@ -6,6 +6,7 @@
 //
 
 #include <iostream>
+
 #include "Pet.hpp"
 #include "Cat.hpp"
 #include "Dog.hpp"
@@ -35,7 +36,7 @@ public:
 
 std::string Bier::schmeckt()
 {
-    return "schmeckt mir am bester";
+    return "schmeckt mir am besten";
 };
 
 
@@ -43,6 +44,7 @@ std::string Bier::schmeckt()
 // declare func for overloading example
 void greeting();
 void greeting(std::string);
+
 void trenner();
 
 
@@ -58,13 +60,15 @@ int main(int argc, const char * argv[])
     Getraenk * pGetraenk = new Getraenk;
     std::cout << pGetraenk->schmeckt() << std::endl;
     
+    pGetraenk = new Bier;
+    pGetraenk->schmeckt();
+    
     Bier * pBier = new Bier;
     std::cout << pBier->schmeckt() << std::endl;
     std::cout << pBier->Getraenk::schmeckt() << std::endl;
     
     trenner();
     
-    // Substitutionsprinzip
     Pet * pPet = new Pet();
     pPet->makeNoise();
     

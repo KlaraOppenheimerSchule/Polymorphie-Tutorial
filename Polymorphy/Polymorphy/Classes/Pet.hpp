@@ -14,7 +14,7 @@
 class Pet
 {
 public:
-    virtual void makeNoise();
+    virtual void makeNoise() ;
 };
 
 #endif /* Pet_hpp */
